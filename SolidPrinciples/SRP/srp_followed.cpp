@@ -36,7 +36,7 @@ public:
 // i have to make a class for prining invoice;
 class ShoppingCartPrinter{
     // compostion
-    // first i will take the refrence of main class -> shoping cart;
+    // first i will take the refrence of main class -> shoping cart we have taken the refrence because we need this we need cart;
 private:
     ShopingCart* cart;
 public:
