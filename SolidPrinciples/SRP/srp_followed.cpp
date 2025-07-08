@@ -17,7 +17,6 @@ public:
 class ShopingCart{
 private:
     vector<Product*> vec;
-    int total=0;
 public:
     void push(Product* p){
         vec.push_back(p);
@@ -26,6 +25,7 @@ public:
         return vec;
     }
     double calculateTotalPrice(){
+        double total=0;
         for(int i=0;i<vec.size();i++){
             total=total+vec[i]->price;
         }
